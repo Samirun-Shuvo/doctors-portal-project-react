@@ -13,7 +13,7 @@ const AvailableApointment = ({date}) => {
     },[])
     return (
         <div>
-            <h4 className="text-center text-secondary text-xl my-8">Available Appointments on {format (date, 'PP')}</h4>
+            <h4 className="text-center text-secondary text-xl my-12">Available Appointments on {format (date, 'PP')}</h4>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 {
                     services.map(service=><Service
